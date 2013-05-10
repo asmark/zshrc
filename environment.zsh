@@ -16,5 +16,8 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/sbin:$PATH
 
+export PATH=$HOME/bin:$PATH
+export PATH=$HOME/etc:$PATH
+
 # https://github.com/mxcl/homebrew/issues/11182
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH

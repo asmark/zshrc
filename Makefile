@@ -28,6 +28,8 @@ install-core:
 	@(ls $(ZSH_LOCAL)/bin/autojump  > /dev/null 2> /dev/null) || ln -s $(PWD)/autojump/autojump $(ZSH_LOCAL)/bin/autojump
 	@echo "Copying autojump autocompletion script..."
 	@cp -f autojump/_j functions.d/_j
+	@echo "Copying trpath script..."
+	@cp trpath ~/bin/
 	@echo "Creating custom user files iff neccessary..."
 	@touch private.zsh # create custom files for users
 	@echo "DONE with core install tasks."

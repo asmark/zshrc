@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ `pwd` == $HOME ]
+then
+   echo "~"
+else
+   pwd|awk '{x=split($PWD, arr, "/")} END {print "../"arr[x-2]"/"arr[x-1]"/"arr[x]}'
+fi
+
