@@ -30,6 +30,7 @@ alias p=' ps aux | grep'
 alias g='git'
 alias d=' dirs -v'
 alias ka="killall"
+alias open='xdg-open'
 
 alias cd=' cd'
 alias ..=' cd ..; ls'
